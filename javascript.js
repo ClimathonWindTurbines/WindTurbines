@@ -153,7 +153,7 @@ var styledMapType = new google.maps.StyledMapType(
 
 //_ Main
 $(document).ready(function () {
-  
+  console.log(alldata["DATASECTION"]);
 });
 
 //_ Emacs vars

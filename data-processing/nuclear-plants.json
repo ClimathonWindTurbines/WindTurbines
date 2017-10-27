@@ -1,0 +1,617 @@
+{
+   "HEADERSECTION": {
+      "@SENDER": "ili2fme-5.11.1-20150707",
+      "@VERSION": "2.3",
+      "MODELS": {
+         "MODEL": [
+            {
+               "@NAME": "WithOneState_V1",
+               "@VERSION": "2011-08-30",
+               "@URI": "http://www.geo.admin.ch"
+            },
+            {
+               "@NAME": "WithLatestModification_V1",
+               "@VERSION": "2011-08-30",
+               "@URI": "http://www.geo.admin.ch"
+            },
+            {
+               "@NAME": "WithModificationObjects_V1",
+               "@VERSION": "2011-08-30",
+               "@URI": "http://www.geo.admin.ch"
+            },
+            {
+               "@NAME": "Units",
+               "@VERSION": "2005-06-06",
+               "@URI": "http://www.interlis.ch/models"
+            },
+            {
+               "@NAME": "InternationalCodes_V1",
+               "@VERSION": "2011-08-30",
+               "@URI": "http://www.geo.admin.ch"
+            },
+            {
+               "@NAME": "Localisation_V1",
+               "@VERSION": "2011-08-30",
+               "@URI": "http://www.geo.admin.ch"
+            },
+            {
+               "@NAME": "LocalisationCH_V1",
+               "@VERSION": "2011-08-30",
+               "@URI": "http://www.geo.admin.ch"
+            },
+            {
+               "@NAME": "Dictionaries_V1",
+               "@VERSION": "2011-08-30",
+               "@URI": "http://www.geo.admin.ch"
+            },
+            {
+               "@NAME": "DictionariesCH_V1",
+               "@VERSION": "2011-08-30",
+               "@URI": "http://www.geo.admin.ch"
+            },
+            {
+               "@NAME": "CatalogueObjects_V1",
+               "@VERSION": "2011-08-30",
+               "@URI": "http://www.geo.admin.ch"
+            },
+            {
+               "@NAME": "CatalogueObjectTrees_V1",
+               "@VERSION": "2011-08-30",
+               "@URI": "http://www.geo.admin.ch"
+            },
+            {
+               "@NAME": "CoordSys",
+               "@VERSION": "2005-06-16",
+               "@URI": "http://www.interlis.ch/models"
+            },
+            {
+               "@NAME": "CHAdminCodes_V1",
+               "@VERSION": "2011-08-30",
+               "@URI": "http://www.geo.admin.ch"
+            },
+            {
+               "@NAME": "AdministrativeUnits_V1",
+               "@VERSION": "2011-08-30",
+               "@URI": "http://www.geo.admin.ch"
+            },
+            {
+               "@NAME": "AdministrativeUnitsCH_V1",
+               "@VERSION": "2011-08-30",
+               "@URI": "http://www.geo.admin.ch"
+            },
+            {
+               "@NAME": "GeometryCHLV03_V1",
+               "@VERSION": "2015-11-12",
+               "@URI": "http://www.geo.admin.ch"
+            },
+            {
+               "@NAME": "GeometryCHLV95_V1",
+               "@VERSION": "2015-11-12",
+               "@URI": "http://www.geo.admin.ch"
+            },
+            {
+               "@NAME": "NuclearPowerPlants_V1_1",
+               "@VERSION": "2015-05-22",
+               "@URI": "http://models.geo.admin.ch/BFE/"
+            }
+         ]
+      }
+   },
+   "DATASECTION": {
+      "NuclearPowerPlants_V1_1.NuclearPowerPlants_WithOneState": {
+         "@BID": "b001",
+         "NuclearPowerPlants_V1_1.NuclearPowerPlants_WithOneState.NuclearPowerPlant": [
+            {
+               "@TID": "plant1",
+               "Location": {
+                  "COORD": {
+                     "C1": "2587018.0",
+                     "C2": "1201992.0"
+                  }
+               },
+               "Name": "Kernkraftwerk Mühleberg",
+               "Abbreviation": "KKM",
+               "Canton": "BE",
+               "Municipality": "Mühleberg",
+               "ModInfo": {
+                  "WithOneState_V1.ModInfo": null
+               },
+               "EnforcementOfLegislation1": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o1"
+                     }
+                  }
+               },
+               "EnforcementOfLegislation2": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o2"
+                     }
+                  }
+               },
+               "EnforcementOfLegislation3": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o3"
+                     }
+                  }
+               },
+               "Licence": {
+                  "LocalisationCH_V1.MultilingualText": {
+                     "LocalisedText": {
+                        "LocalisationCH_V1.LocalisedText": [
+                           {
+                              "Language": "de",
+                              "Text": "Betriebsbewilligungen für KKW werden in der Schweiz grundsätzlich unbefristet erteilt. KKW können solange betrieben werden als ihre Sicherheit gewährleistet ist. Sollten die Voraussetzungen für den sicheren Betrieb eines Kernkraftwerks einmal nicht mehr gegeben sein, kann jederzeit die Betriebsbewilligung entzogen werden. Sind Ausserbetriebnahmekriterien gemäss Verordnung des UVEK über die Methodik und die Randbedingungen zur Überprüfung der Kriterien für die vorläufige Ausserbetriebnahme von Kernkraftwerken erfüllt, muss der Bewilligungsinhaber sein Werk unverzüglich ausser Betrieb nehmen."
+                           },
+                           {
+                              "Language": "fr",
+                              "Text": "En Suisse, l'autorisation d'exploiter une centrale nucléaire est en principe délivrée pour une durée illimitée. Une centrale nucléaire peut être exploitée aussi longtemps que sa sécurité est garantie. Si les conditions d'une exploitation sûre d'une centrale nucléaire ne sont plus remplies, l'autorisation d'exploiter peut être retirée à tout moment. Le détenteur de l'autorisation d'exploiter doit procéder sans délai à la mise hors service de son installation si les critères de mise hors service figurant dans l'ordonnance du DETEC sur la méthode et sur les standards de vérification des critères de la mise hors service provisoire d'une centrale nucléaire sont remplis."
+                           },
+                           {
+                              "Language": "it",
+                              "Text": "In Svizzera le licenze d'esercizio per le centrali nucleari sono di regola rilasciate senza limitazioni temporali. Una centrale nucleare può essere esercitata fintantoché la sua sicurezza è garantita. Se i presupposti per esercitare in modo sicuro una centrale nucleare non dovessero più essere soddisfatti, la licenza d'esercizio può essere revocata in qualsiasi momento. Se sono soddisfatti i criteri per la messa fuori servizio indicati nell'ordinanza del DATEC sulla metodica e le condizioni marginali per la verifica dei criteri per la messa fuori servizio temporanea di centrali nucleari, il titolare della licenza deve immediatamente mettere fuori servizio l'impianto."
+                           },
+                           {
+                              "Language": "en",
+                              "Text": "Operating licenses for nuclear power plants (NPPs) in Switzerland are essentially granted on a permanent basis. NPPs can be operated as long as their security is ensured. Once the conditions for the safe operation of a nuclear power plant can no longer be guaranteed, the operating licence may be withdrawn at any time. If the decommissioning criteria under the DETEC Ordinance of 16 April 2008 on the Methodology and Standards for the Verification of the Criteria for the Provisional Decommissioning of Nuclear Power Plants are met, the licensed operator must decommission the plant immediately."
+                           }
+                        ]
+                     }
+                  }
+               },
+               "Operator": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o5"
+                     }
+                  }
+               },
+               "Owner": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o5"
+                     }
+                  }
+               },
+               "RegulatoryBody": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o4"
+                     }
+                  }
+               }
+            },
+            {
+               "@TID": "plant2",
+               "Location": {
+                  "COORD": {
+                     "C1": "2639893.0",
+                     "C2": "1246271.0"
+                  }
+               },
+               "Name": "Kernkraftwerk Gösgen",
+               "Abbreviation": "KKG",
+               "Canton": "SO",
+               "Municipality": "Däniken",
+               "ModInfo": {
+                  "WithOneState_V1.ModInfo": null
+               },
+               "EnforcementOfLegislation1": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o1"
+                     }
+                  }
+               },
+               "EnforcementOfLegislation2": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o2"
+                     }
+                  }
+               },
+               "EnforcementOfLegislation3": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o3"
+                     }
+                  }
+               },
+               "Licence": {
+                  "LocalisationCH_V1.MultilingualText": {
+                     "LocalisedText": {
+                        "LocalisationCH_V1.LocalisedText": [
+                           {
+                              "Language": "de",
+                              "Text": "Betriebsbewilligungen für KKW werden in der Schweiz grundsätzlich unbefristet erteilt. KKW können solange betrieben werden als ihre Sicherheit gewährleistet ist. Sollten die Voraussetzungen für den sicheren Betrieb eines Kernkraftwerks einmal nicht mehr gegeben sein, kann jederzeit die Betriebsbewilligung entzogen werden. Sind Ausserbetriebnahmekriterien gemäss Verordnung des UVEK über die Methodik und die Randbedingungen zur Überprüfung der Kriterien für die vorläufige Ausserbetriebnahme von Kernkraftwerken erfüllt, muss der Bewilligungsinhaber sein Werk unverzüglich ausser Betrieb nehmen."
+                           },
+                           {
+                              "Language": "fr",
+                              "Text": "En Suisse, l'autorisation d'exploiter une centrale nucléaire est en principe délivrée pour une durée illimitée. Une centrale nucléaire peut être exploitée aussi longtemps que sa sécurité est garantie. Si les conditions d'une exploitation sûre d'une centrale nucléaire ne sont plus remplies, l'autorisation d'exploiter peut être retirée à tout moment. Le détenteur de l'autorisation d'exploiter doit procéder sans délai à la mise hors service de son installation si les critères de mise hors service figurant dans l'ordonnance du DETEC sur la méthode et sur les standards de vérification des critères de la mise hors service provisoire d'une centrale nucléaire sont remplis."
+                           },
+                           {
+                              "Language": "it",
+                              "Text": "In Svizzera le licenze d'esercizio per le centrali nucleari sono di regola rilasciate senza limitazioni temporali. Una centrale nucleare può essere esercitata fintantoché la sua sicurezza è garantita. Se i presupposti per esercitare in modo sicuro una centrale nucleare non dovessero più essere soddisfatti, la licenza d'esercizio può essere revocata in qualsiasi momento. Se sono soddisfatti i criteri per la messa fuori servizio indicati nell'ordinanza del DATEC sulla metodica e le condizioni marginali per la verifica dei criteri per la messa fuori servizio temporanea di centrali nucleari, il titolare della licenza deve immediatamente mettere fuori servizio l'impianto."
+                           },
+                           {
+                              "Language": "en",
+                              "Text": "Operating licenses for nuclear power plants (NPPs) in Switzerland are essentially granted on a permanent basis. NPPs can be operated as long as their security is ensured. Once the conditions for the safe operation of a nuclear power plant can no longer be guaranteed, the operating licence may be withdrawn at any time. If the decommissioning criteria under the DETEC Ordinance of 16 April 2008 on the Methodology and Standards for the Verification of the Criteria for the Provisional Decommissioning of Nuclear Power Plants are met, the licensed operator must decommission the plant immediately."
+                           }
+                        ]
+                     }
+                  }
+               },
+               "Operator": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o6"
+                     }
+                  }
+               },
+               "Owner": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o6"
+                     }
+                  }
+               },
+               "RegulatoryBody": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o4"
+                     }
+                  }
+               }
+            },
+            {
+               "@TID": "plant3",
+               "Location": {
+                  "COORD": {
+                     "C1": "2659448.0",
+                     "C2": "1267110.0"
+                  }
+               },
+               "Name": "Kernkraftwerk Beznau",
+               "Abbreviation": "KKB",
+               "Canton": "AG",
+               "Municipality": "Döttingen",
+               "ModInfo": {
+                  "WithOneState_V1.ModInfo": null
+               },
+               "EnforcementOfLegislation1": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o1"
+                     }
+                  }
+               },
+               "EnforcementOfLegislation2": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o2"
+                     }
+                  }
+               },
+               "EnforcementOfLegislation3": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o3"
+                     }
+                  }
+               },
+               "Licence": {
+                  "LocalisationCH_V1.MultilingualText": {
+                     "LocalisedText": {
+                        "LocalisationCH_V1.LocalisedText": [
+                           {
+                              "Language": "de",
+                              "Text": "Betriebsbewilligungen für KKW werden in der Schweiz grundsätzlich unbefristet erteilt. KKW können solange betrieben werden als ihre Sicherheit gewährleistet ist. Sollten die Voraussetzungen für den sicheren Betrieb eines Kernkraftwerks einmal nicht mehr gegeben sein, kann jederzeit die Betriebsbewilligung entzogen werden. Sind Ausserbetriebnahmekriterien gemäss Verordnung des UVEK über die Methodik und die Randbedingungen zur Überprüfung der Kriterien für die vorläufige Ausserbetriebnahme von Kernkraftwerken erfüllt, muss der Bewilligungsinhaber sein Werk unverzüglich ausser Betrieb nehmen."
+                           },
+                           {
+                              "Language": "fr",
+                              "Text": "En Suisse, l'autorisation d'exploiter une centrale nucléaire est en principe délivrée pour une durée illimitée. Une centrale nucléaire peut être exploitée aussi longtemps que sa sécurité est garantie. Si les conditions d'une exploitation sûre d'une centrale nucléaire ne sont plus remplies, l'autorisation d'exploiter peut être retirée à tout moment. Le détenteur de l'autorisation d'exploiter doit procéder sans délai à la mise hors service de son installation si les critères de mise hors service figurant dans l'ordonnance du DETEC sur la méthode et sur les standards de vérification des critères de la mise hors service provisoire d'une centrale nucléaire sont remplis."
+                           },
+                           {
+                              "Language": "it",
+                              "Text": "In Svizzera le licenze d'esercizio per le centrali nucleari sono di regola rilasciate senza limitazioni temporali. Una centrale nucleare può essere esercitata fintantoché la sua sicurezza è garantita. Se i presupposti per esercitare in modo sicuro una centrale nucleare non dovessero più essere soddisfatti, la licenza d'esercizio può essere revocata in qualsiasi momento. Se sono soddisfatti i criteri per la messa fuori servizio indicati nell'ordinanza del DATEC sulla metodica e le condizioni marginali per la verifica dei criteri per la messa fuori servizio temporanea di centrali nucleari, il titolare della licenza deve immediatamente mettere fuori servizio l'impianto."
+                           },
+                           {
+                              "Language": "en",
+                              "Text": "Operating licenses for nuclear power plants (NPPs) in Switzerland are essentially granted on a permanent basis. NPPs can be operated as long as their security is ensured. Once the conditions for the safe operation of a nuclear power plant can no longer be guaranteed, the operating licence may be withdrawn at any time. If the decommissioning criteria under the DETEC Ordinance of 16 April 2008 on the Methodology and Standards for the Verification of the Criteria for the Provisional Decommissioning of Nuclear Power Plants are met, the licensed operator must decommission the plant immediately."
+                           }
+                        ]
+                     }
+                  }
+               },
+               "Operator": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o7"
+                     }
+                  }
+               },
+               "Owner": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o7"
+                     }
+                  }
+               },
+               "RegulatoryBody": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o4"
+                     }
+                  }
+               }
+            },
+            {
+               "@TID": "plant4",
+               "Location": {
+                  "COORD": {
+                     "C1": "2655966.0",
+                     "C2": "1272573.0"
+                  }
+               },
+               "Name": "Kernkraftwerk Leibstadt",
+               "Abbreviation": "KKL",
+               "Canton": "AG",
+               "Municipality": "Leibstadt",
+               "ModInfo": {
+                  "WithOneState_V1.ModInfo": null
+               },
+               "EnforcementOfLegislation1": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o1"
+                     }
+                  }
+               },
+               "EnforcementOfLegislation2": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o2"
+                     }
+                  }
+               },
+               "EnforcementOfLegislation3": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o3"
+                     }
+                  }
+               },
+               "Licence": {
+                  "LocalisationCH_V1.MultilingualText": {
+                     "LocalisedText": {
+                        "LocalisationCH_V1.LocalisedText": [
+                           {
+                              "Language": "de",
+                              "Text": "Betriebsbewilligungen für KKW werden in der Schweiz grundsätzlich unbefristet erteilt. KKW können solange betrieben werden als ihre Sicherheit gewährleistet ist. Sollten die Voraussetzungen für den sicheren Betrieb eines Kernkraftwerks einmal nicht mehr gegeben sein, kann jederzeit die Betriebsbewilligung entzogen werden. Sind Ausserbetriebnahmekriterien gemäss Verordnung des UVEK über die Methodik und die Randbedingungen zur Überprüfung der Kriterien für die vorläufige Ausserbetriebnahme von Kernkraftwerken erfüllt, muss der Bewilligungsinhaber sein Werk unverzüglich ausser Betrieb nehmen."
+                           },
+                           {
+                              "Language": "fr",
+                              "Text": "En Suisse, l'autorisation d'exploiter une centrale nucléaire est en principe délivrée pour une durée illimitée. Une centrale nucléaire peut être exploitée aussi longtemps que sa sécurité est garantie. Si les conditions d'une exploitation sûre d'une centrale nucléaire ne sont plus remplies, l'autorisation d'exploiter peut être retirée à tout moment. Le détenteur de l'autorisation d'exploiter doit procéder sans délai à la mise hors service de son installation si les critères de mise hors service figurant dans l'ordonnance du DETEC sur la méthode et sur les standards de vérification des critères de la mise hors service provisoire d'une centrale nucléaire sont remplis."
+                           },
+                           {
+                              "Language": "it",
+                              "Text": "In Svizzera le licenze d'esercizio per le centrali nucleari sono di regola rilasciate senza limitazioni temporali. Una centrale nucleare può essere esercitata fintantoché la sua sicurezza è garantita. Se i presupposti per esercitare in modo sicuro una centrale nucleare non dovessero più essere soddisfatti, la licenza d'esercizio può essere revocata in qualsiasi momento. Se sono soddisfatti i criteri per la messa fuori servizio indicati nell'ordinanza del DATEC sulla metodica e le condizioni marginali per la verifica dei criteri per la messa fuori servizio temporanea di centrali nucleari, il titolare della licenza deve immediatamente mettere fuori servizio l'impianto."
+                           },
+                           {
+                              "Language": "en",
+                              "Text": "Operating licenses for nuclear power plants (NPPs) in Switzerland are essentially granted on a permanent basis. NPPs can be operated as long as their security is ensured. Once the conditions for the safe operation of a nuclear power plant can no longer be guaranteed, the operating licence may be withdrawn at any time. If the decommissioning criteria under the DETEC Ordinance of 16 April 2008 on the Methodology and Standards for the Verification of the Criteria for the Provisional Decommissioning of Nuclear Power Plants are met, the licensed operator must decommission the plant immediately."
+                           }
+                        ]
+                     }
+                  }
+               },
+               "Operator": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o8"
+                     }
+                  }
+               },
+               "Owner": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o8"
+                     }
+                  }
+               },
+               "RegulatoryBody": {
+                  "NuclearPowerPlants_V1_1.OrganisationCatalogue.OrganisationRef": {
+                     "Ref": {
+                        "@REF": "o4"
+                     }
+                  }
+               }
+            }
+         ],
+         "NuclearPowerPlants_V1_1.NuclearPowerPlants_WithOneState.NuclearPowerReactor": [
+            {
+               "@TID": "reactor1",
+               "Name": "Mühleberg",
+               "NominalThermalOutput": "1097",
+               "GrossElectricalOutput": "390",
+               "NetElectricalOutput": "373",
+               "UnderConstructionPhase": "01.03.1967 - 30.06.1971",
+               "OperationPhase": "06.11.1972 -",
+               "ModInfo": {
+                  "WithOneState_V1.ModInfo": null
+               },
+               "TypeOfCoolingSystem": {
+                  "NuclearPowerPlants_V1_1.TypeOfCoolingSystemCatalogue.TypeOfCoolingSystemRef": {
+                     "Ref": {
+                        "@REF": "toc1"
+                     }
+                  }
+               },
+               "TypeOfReactor": {
+                  "NuclearPowerPlants_V1_1.TypeOfReactorCatalogue.TypeOfReactorRef": {
+                     "Ref": {
+                        "@REF": "tor1"
+                     }
+                  }
+               },
+               "PhaseOfLife": {
+                  "NuclearPowerPlants_V1_1.PhaseOfLifeCatalogue.PhaseOfLifeRef": {
+                     "Ref": {
+                        "@REF": "pol2"
+                     }
+                  }
+               },
+               "nuclearPowerPlantR1": {
+                  "@REF": "plant1"
+               }
+            },
+            {
+               "@TID": "reactor2",
+               "Name": "Gösgen",
+               "NominalThermalOutput": "3002",
+               "GrossElectricalOutput": "1060",
+               "NetElectricalOutput": "1010",
+               "UnderConstructionPhase": "01.12.1973 - 01.02.1979",
+               "OperationPhase": "01.11.1979 -",
+               "ModInfo": {
+                  "WithOneState_V1.ModInfo": null
+               },
+               "TypeOfCoolingSystem": {
+                  "NuclearPowerPlants_V1_1.TypeOfCoolingSystemCatalogue.TypeOfCoolingSystemRef": {
+                     "Ref": {
+                        "@REF": "toc2"
+                     }
+                  }
+               },
+               "TypeOfReactor": {
+                  "NuclearPowerPlants_V1_1.TypeOfReactorCatalogue.TypeOfReactorRef": {
+                     "Ref": {
+                        "@REF": "tor2"
+                     }
+                  }
+               },
+               "PhaseOfLife": {
+                  "NuclearPowerPlants_V1_1.PhaseOfLifeCatalogue.PhaseOfLifeRef": {
+                     "Ref": {
+                        "@REF": "pol2"
+                     }
+                  }
+               },
+               "nuclearPowerPlantR1": {
+                  "@REF": "plant2"
+               }
+            },
+            {
+               "@TID": "reactor3",
+               "Name": "Beznau 1",
+               "NominalThermalOutput": "1130",
+               "GrossElectricalOutput": "380",
+               "NetElectricalOutput": "365",
+               "UnderConstructionPhase": "01.09.1965 - 16.07.1969",
+               "OperationPhase": "01.09.1969 -",
+               "ModInfo": {
+                  "WithOneState_V1.ModInfo": null
+               },
+               "TypeOfCoolingSystem": {
+                  "NuclearPowerPlants_V1_1.TypeOfCoolingSystemCatalogue.TypeOfCoolingSystemRef": {
+                     "Ref": {
+                        "@REF": "toc1"
+                     }
+                  }
+               },
+               "TypeOfReactor": {
+                  "NuclearPowerPlants_V1_1.TypeOfReactorCatalogue.TypeOfReactorRef": {
+                     "Ref": {
+                        "@REF": "tor2"
+                     }
+                  }
+               },
+               "PhaseOfLife": {
+                  "NuclearPowerPlants_V1_1.PhaseOfLifeCatalogue.PhaseOfLifeRef": {
+                     "Ref": {
+                        "@REF": "pol2"
+                     }
+                  }
+               },
+               "nuclearPowerPlantR1": {
+                  "@REF": "plant3"
+               }
+            },
+            {
+               "@TID": "reactor4",
+               "Name": "Beznau 2",
+               "NominalThermalOutput": "1130",
+               "GrossElectricalOutput": "380",
+               "NetElectricalOutput": "365",
+               "UnderConstructionPhase": "01.01.1968 - 22.10.1971",
+               "OperationPhase": "01.12.1971 -",
+               "ModInfo": {
+                  "WithOneState_V1.ModInfo": null
+               },
+               "TypeOfCoolingSystem": {
+                  "NuclearPowerPlants_V1_1.TypeOfCoolingSystemCatalogue.TypeOfCoolingSystemRef": {
+                     "Ref": {
+                        "@REF": "toc1"
+                     }
+                  }
+               },
+               "TypeOfReactor": {
+                  "NuclearPowerPlants_V1_1.TypeOfReactorCatalogue.TypeOfReactorRef": {
+                     "Ref": {
+                        "@REF": "tor2"
+                     }
+                  }
+               },
+               "PhaseOfLife": {
+                  "NuclearPowerPlants_V1_1.PhaseOfLifeCatalogue.PhaseOfLifeRef": {
+                     "Ref": {
+                        "@REF": "pol2"
+                     }
+                  }
+               },
+               "nuclearPowerPlantR1": {
+                  "@REF": "plant3"
+               }
+            },
+            {
+               "@TID": "reactor5",
+               "Name": "Leibstadt",
+               "NominalThermalOutput": "3600",
+               "GrossElectricalOutput": "1245",
+               "NetElectricalOutput": "1190",
+               "UnderConstructionPhase": "01.01.1974 - 23.05.1984",
+               "OperationPhase": "15.12.1984 -",
+               "ModInfo": {
+                  "WithOneState_V1.ModInfo": null
+               },
+               "TypeOfCoolingSystem": {
+                  "NuclearPowerPlants_V1_1.TypeOfCoolingSystemCatalogue.TypeOfCoolingSystemRef": {
+                     "Ref": {
+                        "@REF": "toc2"
+                     }
+                  }
+               },
+               "TypeOfReactor": {
+                  "NuclearPowerPlants_V1_1.TypeOfReactorCatalogue.TypeOfReactorRef": {
+                     "Ref": {
+                        "@REF": "tor1"
+                     }
+                  }
+               },
+               "PhaseOfLife": {
+                  "NuclearPowerPlants_V1_1.PhaseOfLifeCatalogue.PhaseOfLifeRef": {
+                     "Ref": {
+                        "@REF": "pol2"
+                     }
+                  }
+               },
+               "nuclearPowerPlantR1": {
+                  "@REF": "plant4"
+               }
+            }
+         ]
+      }
+   }
+}

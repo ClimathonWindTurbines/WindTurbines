@@ -1,4 +1,4 @@
-alldata={
+{
    "HEADERSECTION": {
       "@SENDER": "ili2fme-6.1.2-20160811",
       "@VERSION": "2.3",
@@ -7917,4 +7917,4 @@ alldata={
          ]
       }
    }
-};
+}

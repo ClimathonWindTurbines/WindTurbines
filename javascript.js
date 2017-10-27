@@ -1,6 +1,7 @@
 //_ Comments
 
-
+var map = null;
+var markers = [];
 
 function loadScript(src) {
   var script = document.createElement("script");
@@ -12,18 +13,35 @@ function loadScript(src) {
 loadScript('https://maps.googleapis.com/maps/api/js?key=AIzaSyBg0y5B69OtpzAkFAvlR8emxwdhQWjdw40&callback=initMap');
 
 function initMap() {
-  var uluru = {lat: 47.2221, lng: 8.3156};
-  var map = new google.maps.Map(document.getElementById('map'), {
+  map = new google.maps.Map(document.getElementById('map'), {
     zoom: 8,
-    center: uluru
-  });
-  var marker = new google.maps.Marker({
-    position: uluru,
-    map: map
+    center: {lat: 47.2221, lng: 8.3156}
   });
 
-  // Create a new StyledMapType object, passing it an array of styles,
-// and the name to be displayed on the map type control.
+  var icons = {
+    "water": {
+      icon: 'hydro.png'
+    },
+    "nuclear": {
+      icon: 'nuclear.png'
+    },
+    "wind": {
+      icon: 'wind.png'
+    },
+    "solar": {
+      icon: 'solar.png'
+    }
+  };
+
+  alldata.forEach(function(e) {
+    markers.push(new google.maps.Marker({
+      position: {lat: Number(e["latitude"]), lng: Number(e["longitude"])},
+      icon: icons[e["type"]].icon,
+      map: map
+    }));
+  });
+
+//_ Google Map
 var styledMapType = new google.maps.StyledMapType(
   [
     {elementType: 'geometry', stylers: [{color: '#ebe3cd'}]},
@@ -153,7 +171,6 @@ var styledMapType = new google.maps.StyledMapType(
 
 //_ Main
 $(document).ready(function () {
-  console.log(alldata["DATASECTION"]);
 });
 
 //_ Emacs vars

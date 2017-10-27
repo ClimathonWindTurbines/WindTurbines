@@ -1,0 +1,366 @@
+alldata = [
+  {
+    "latitude": "47.58242751767845", 
+    "type": "wind", 
+    "name": "Berg", 
+    "longitude": "9.181786712920763", 
+    "power_output_kw": 6.5
+  }, 
+  {
+    "latitude": "47.6922135699343", 
+    "type": "wind", 
+    "name": "Beringen SH", 
+    "longitude": "8.577535500139051", 
+    "power_output_kw": 3.0
+  }, 
+  {
+    "latitude": "47.476038565993164", 
+    "type": "wind", 
+    "name": "Brütten 2", 
+    "longitude": "8.659673137048594", 
+    "power_output_kw": 6.5
+  }, 
+  {
+    "latitude": "47.386421472176366", 
+    "type": "wind", 
+    "name": "Chürstein (Gäbris)", 
+    "longitude": "9.467630704673315", 
+    "power_output_kw": 80.0
+  }, 
+  {
+    "latitude": "46.159842738690095", 
+    "type": "wind", 
+    "name": "Collonges", 
+    "longitude": "7.037330639702382", 
+    "power_output_kw": 2000.0
+  }, 
+  {
+    "latitude": "46.771264582719006", 
+    "type": "wind", 
+    "name": "Chli Titlis", 
+    "longitude": "8.421898503150173", 
+    "power_output_kw": 30.0
+  }, 
+  {
+    "latitude": "47.19765334050509", 
+    "type": "wind", 
+    "name": "Diegenstal", 
+    "longitude": "8.141372883744648", 
+    "power_output_kw": 30.0
+  }, 
+  {
+    "latitude": "46.98993012145429", 
+    "type": "wind", 
+    "name": "Feldmoos/Rengg", 
+    "longitude": "8.086897942716545", 
+    "power_output_kw": 1850.0
+  }, 
+  {
+    "latitude": "46.654223779771414", 
+    "type": "wind", 
+    "name": "Gütsch", 
+    "longitude": "8.616331758879037", 
+    "power_output_kw": 3300.0
+  }, 
+  {
+    "latitude": "47.534798290975516", 
+    "type": "wind", 
+    "name": "Hettlingen ZH", 
+    "longitude": "8.700339162976823", 
+    "power_output_kw": 2.0
+  }, 
+  {
+    "latitude": "46.88758325536184", 
+    "type": "wind", 
+    "name": "Alpboden-Haldigrat", 
+    "longitude": "8.433381732795485", 
+    "power_output_kw": 20.0
+  }, 
+  {
+    "latitude": "47.492219370537576", 
+    "type": "wind", 
+    "name": "Horn", 
+    "longitude": "9.47006406087232", 
+    "power_output_kw": 15.0
+  }, 
+  {
+    "latitude": "46.95529010064245", 
+    "type": "wind", 
+    "name": "Schüpfheim", 
+    "longitude": "8.021238132908898", 
+    "power_output_kw": 10.0
+  }, 
+  {
+    "latitude": "47.17862663334381", 
+    "type": "wind", 
+    "name": "Le Cerneux-Veusil", 
+    "longitude": "6.945574045990032", 
+    "power_output_kw": 6.5
+  }, 
+  {
+    "latitude": "47.16257439825963", 
+    "type": "wind", 
+    "name": "La Ferrière", 
+    "longitude": "6.944350104889014", 
+    "power_output_kw": 6.5
+  }, 
+  {
+    "latitude": "47.63011023064176", 
+    "type": "wind", 
+    "name": "Marthalen", 
+    "longitude": "8.644168184976497", 
+    "power_output_kw": 6.5
+  }, 
+  {
+    "latitude": "47.17787866850163", 
+    "type": "wind", 
+    "name": "Mt. Crosin", 
+    "longitude": "7.015169959146483", 
+    "power_output_kw": 37200.0
+  }, 
+  {
+    "latitude": "47.23226091765419", 
+    "type": "wind", 
+    "name": "Oberer Grenchenberg", 
+    "longitude": "7.400337038309071", 
+    "power_output_kw": 150.0
+  }, 
+  {
+    "latitude": "47.241466179258104", 
+    "type": "wind", 
+    "name": "Rüttenen", 
+    "longitude": "7.533593753628644", 
+    "power_output_kw": 6.5
+  }, 
+  {
+    "latitude": "47.06025146336434", 
+    "type": "wind", 
+    "name": "Schaber Emmental", 
+    "longitude": "7.80193309925764", 
+    "power_output_kw": 15.0
+  }, 
+  {
+    "latitude": "47.06864113973641", 
+    "type": "wind", 
+    "name": "Hochstuckli", 
+    "longitude": "8.667729891477554", 
+    "power_output_kw": 10.0
+  }, 
+  {
+    "latitude": "46.24684336278436", 
+    "type": "wind", 
+    "name": "Simplon Passhöhe", 
+    "longitude": "8.023285169726678", 
+    "power_output_kw": 30.0
+  }, 
+  {
+    "latitude": "47.36370974780687", 
+    "type": "wind", 
+    "name": "Sool, Langenbruck", 
+    "longitude": "7.732049817735074", 
+    "power_output_kw": 28.0
+  }, 
+  {
+    "latitude": "46.50328060815945", 
+    "type": "wind", 
+    "name": "St. Moritz", 
+    "longitude": "9.801543290620536", 
+    "power_output_kw": 6.5
+  }, 
+  {
+    "latitude": "47.295287257014884", 
+    "type": "wind", 
+    "name": "Schwengimatt", 
+    "longitude": "7.682399327463484", 
+    "power_output_kw": 6.5
+  }, 
+  {
+    "latitude": "47.23873526837337", 
+    "type": "wind", 
+    "name": "Tramelan", 
+    "longitude": "7.1141760102233", 
+    "power_output_kw": 6.5
+  }, 
+  {
+    "latitude": "47.519740676651836", 
+    "type": "wind", 
+    "name": "Winterthur Taggenberg 1 und 2", 
+    "longitude": "8.708572850954228", 
+    "power_output_kw": 13.0
+  }, 
+  {
+    "latitude": "47.5320427589562", 
+    "type": "wind", 
+    "name": "Winterthur Wiesendangerstrasse", 
+    "longitude": "8.766561462453863", 
+    "power_output_kw": 6.5
+  }, 
+  {
+    "latitude": "47.47570226573761", 
+    "type": "wind", 
+    "name": "Brütten 1", 
+    "longitude": "8.686133735519967", 
+    "power_output_kw": 6.5
+  }, 
+  {
+    "latitude": "47.28863920072605", 
+    "type": "wind", 
+    "name": "Lajoux", 
+    "longitude": "7.155817224777286", 
+    "power_output_kw": 13.0
+  }, 
+  {
+    "latitude": "47.303197244243144", 
+    "type": "wind", 
+    "name": "St. Brais", 
+    "longitude": "7.1039586671783645", 
+    "power_output_kw": 4000.0
+  }, 
+  {
+    "latitude": "46.126745640902776", 
+    "type": "wind", 
+    "name": "Martigny", 
+    "longitude": "7.052309193320159", 
+    "power_output_kw": 2050.0
+  }, 
+  {
+    "latitude": "47.18155837978888", 
+    "type": "wind", 
+    "name": "Feusisberg", 
+    "longitude": "8.731785313328091", 
+    "power_output_kw": 15.0
+  }, 
+  {
+    "latitude": "47.20217642312229", 
+    "type": "wind", 
+    "name": "Peuchapatte", 
+    "longitude": "6.962910221373045", 
+    "power_output_kw": 6900.0
+  }, 
+  {
+    "latitude": "47.03663769394162", 
+    "type": "wind", 
+    "name": "Vilters", 
+    "longitude": "9.48189037531402", 
+    "power_output_kw": 6.5
+  }, 
+  {
+    "latitude": "46.46295776244053", 
+    "type": "wind", 
+    "name": "Gries", 
+    "longitude": "8.375644375985773", 
+    "power_output_kw": 9360.0
+  }, 
+  {
+    "latitude": "46.131138288286024", 
+    "type": "wind", 
+    "name": "Charrat VS, Adonis", 
+    "longitude": "7.145424014927755", 
+    "power_output_kw": 3000.0
+  }, 
+  {
+    "latitude": "47.262794468546424", 
+    "type": "wind", 
+    "name": "Schmiedrued", 
+    "longitude": "8.089336551492424", 
+    "power_output_kw": 10.0
+  }, 
+  {
+    "latitude": "46.89402341922183", 
+    "type": "wind", 
+    "name": "Haldenstein", 
+    "longitude": "9.538574941776876", 
+    "power_output_kw": 3000.0
+  }, 
+  {
+    "latitude": "46.99473791780677", 
+    "type": "wind", 
+    "name": "Lutersarni", 
+    "longitude": "8.108110339686009", 
+    "power_output_kw": 2300.0
+  }, 
+  {
+    "latitude": "47.04099729160893", 
+    "type": "wind", 
+    "name": "Goldau", 
+    "longitude": "8.55580461649123", 
+    "power_output_kw": 20.0
+  }, 
+  {
+    "latitude": "46.671337040484275", 
+    "type": "water", 
+    "name": "Val Giuf", 
+    "longitude": "8.750729048039299", 
+    "power_output_kw": 1.42
+  }, 
+  {
+    "latitude": "46.67478052082276", 
+    "type": "water", 
+    "name": "Val Strem", 
+    "longitude": "8.764144850466614", 
+    "power_output_kw": 2.0
+  }, 
+  {
+    "latitude": "46.67005024816736", 
+    "type": "water", 
+    "name": "Sedrun 1", 
+    "longitude": "8.76860311086186", 
+    "power_output_kw": 147.0
+  }, 
+  {
+    "latitude": "46.67005024816736", 
+    "type": "water", 
+    "name": "Sedrun 2", 
+    "longitude": "8.76860311086186", 
+    "power_output_kw": 0.7
+  }, 
+  {
+    "latitude": "46.751037419182246", 
+    "type": "water", 
+    "name": "Tavanasa (KVR)", 
+    "longitude": "9.04692350624192", 
+    "power_output_kw": 176.4
+  }, 
+  {
+    "latitude": "46.720282442807466", 
+    "type": "water", 
+    "name": "Russein", 
+    "longitude": "8.898567922473278", 
+    "power_output_kw": 24.2
+  }, 
+  {
+    "latitude": "46.74350561611922", 
+    "type": "water", 
+    "name": "Ferrera", 
+    "longitude": "8.986493209056182", 
+    "power_output_kw": 4.23
+  }, 
+  {
+    "latitude": "46.74350561611922", 
+    "type": "water", 
+    "name": "Trun", 
+    "longitude": "8.986493209056182", 
+    "power_output_kw": 0.6
+  }, 
+  {
+    "latitude": "46.75738222972383", 
+    "type": "water", 
+    "name": "Dardin (Casut)", 
+    "longitude": "9.049992956369287", 
+    "power_output_kw": 0.42
+  }, 
+  {
+    "latitude": "46.754746409800006", 
+    "type": "water", 
+    "name": "Tavanasa (AHSAG)", 
+    "longitude": "9.070859881824683", 
+    "power_output_kw": 3.7
+  }, 
+  {
+    "latitude": "46.74825424797986", 
+    "type": "water", 
+    "name": "St. Joseph, Obersaxen", 
+    "longitude": "9.07184140824714", 
+    "power_output_kw": 4.26
+  }
+];

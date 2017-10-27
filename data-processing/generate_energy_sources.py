@@ -31,6 +31,7 @@ def get_wind_turbines():
                 'power_output_kw': float(plant['ratedPower'])
             }
             data.append(item)
+            print 'wind: %d/%d' % (len(data), len(plants))
     return data
 
 
@@ -44,12 +45,13 @@ def get_water_plants():
             lat, lon = convert_swiss_coords_latlon(ch_x, ch_y)
             item = {
                 'type': 'water',
-                'name': row['ZE-Name'],
+                'name': row['ZE-Name'].decode('utf-8'),
                 'latitude': lat,
                 'longitude': lon,
                 'power_output_kw': float(row['Max. Leistung ab Generator'])
             }
             data.append(item)
+            print 'water: %d/...' % len(data)
     return data
 
 
@@ -71,6 +73,7 @@ def get_nucler_plants():
                 'power_output_kw': float(reactor['GrossElectricalOutput'])
             }
             data.append(item)
+            print 'nuclear: %d/%d' % (len(data), len(locs))
     return data
 
 

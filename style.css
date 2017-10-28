@@ -1,10 +1,66 @@
-#map {
-    height: 90%;
-    width: 80%;
-}
-
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: #91ccb9;
+    font-family: Arial;
+    color: #2f3e4a;
 }
+
+#header-bg {
+    display: inline-block;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: #2f3e4a;
+}
+
+#header {
+    height: 80px;
+    width: 400px;
+    background-color: #ecce55;
+    padding-right: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: right;
+    vertical-align: middle;
+}
+
+#menu-items {
+    position: absolute;
+    top: 35px;
+    right: 100px;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 200px;
+    color: white;
+}
+
+#map {
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#profile img {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0px;
+}
+

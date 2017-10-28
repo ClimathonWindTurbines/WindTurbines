@@ -32,18 +32,20 @@ function initMap() {
     },
     "solar": {
       url: 'solar.png',
-      scaledSize: new google.maps.Size(25, 25)
+      scaledSize: new google.maps.Size(20, 20)
     }
   };
 
-  alldata.forEach(function(e) {
-    console.log(icons[e["type"]]);
+  for (var i = 0; i < alldata.length; i++) {
+    if ((Number(alldata[i]["power_output_kw"]) < 60) && (alldata[i]["type"] == "water")) {
+      continue;
+    }
     markers.push(new google.maps.Marker({
-      position: {lat: Number(e["latitude"]), lng: Number(e["longitude"])},
-      icon: icons[e["type"]],
+      position: {lat: Number(alldata[i]["latitude"]), lng: Number(alldata[i]["longitude"])},
+      icon: icons[alldata[i]["type"]],
       map: map
     }));
-  });
+  };
 
 //_ Google Map
 var styledMapType = new google.maps.StyledMapType(

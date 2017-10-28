@@ -12,25 +12,25 @@ loadScript('https://maps.googleapis.com/maps/api/js?key=AIzaSyBg0y5B69OtpzAkFAvl
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 8,
-    center: {lat: 47.2221, lng: 8.3156}
+    center: {lat: 46.834427, lng: 8.424753}
   });
 
   var icons = {
     "hydro": {
       url: 'hydro.png',
-      scaledSize: new google.maps.Size(25, 25)
+      scaledSize: new google.maps.Size(30, 30)
     },
     "nuclear": {
       url: 'nuclear.png',
-      scaledSize: new google.maps.Size(25, 25)
+      scaledSize: new google.maps.Size(30, 30)
     },
     "wind": {
       url: 'wind.png',
-      scaledSize: new google.maps.Size(25, 25)
+      scaledSize: new google.maps.Size(30, 30)
     },
     "solar": {
       url: 'solar.png',
-      scaledSize: new google.maps.Size(20, 20)
+      scaledSize: new google.maps.Size(30, 30)
     }
   };
 

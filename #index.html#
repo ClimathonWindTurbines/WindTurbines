@@ -62,7 +62,7 @@
     </div>
 
     <div id="real-time">
-      <img src="realtime.png"></img>
+      <img id="real-time-image" src="realtime.png"></img>
     </div>
 
   </body>

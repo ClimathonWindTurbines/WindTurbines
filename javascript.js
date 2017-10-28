@@ -216,6 +216,14 @@ $(document).ready(function () {
     $('#form').addClass('hidden');
   });
 
+  $('#real-time').click(function() {
+    var current_width = document.getElementById('real-time-image').style.width = "450";
+    if (current_width > 200) {
+      document.getElementById('real-time-image').style.width = "200";
+    } else {
+      document.getElementById('real-time-image').style.width = "450";
+    }
+  });
   
 });
 

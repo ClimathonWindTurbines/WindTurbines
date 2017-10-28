@@ -212,6 +212,7 @@ $(document).ready(function () {
   });
 
   $('#contact-submit').click(function() {
+    $('#contact').reset();
     $('#form').addClass('hidden');
   });
 

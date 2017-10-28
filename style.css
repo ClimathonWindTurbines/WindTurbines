@@ -138,7 +138,7 @@ a {
 #contact input[type="tel"],
 #contact input[type="url"],
 #contact textarea,
-#contact button[type="submit"] {
+#contact button {
   font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
 }
 
@@ -200,7 +200,7 @@ fieldset {
   resize: none;
 }
 
-#contact button[type="submit"] {
+#contact button {
   cursor: pointer;
   width: 100%;
   border: none;
@@ -211,14 +211,14 @@ fieldset {
   font-size: 15px;
 }
 
-#contact button[type="submit"]:hover {
+#contact button:hover {
   background: #43A047;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
 }
 
-#contact button[type="submit"]:active {
+#contact button:active {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 

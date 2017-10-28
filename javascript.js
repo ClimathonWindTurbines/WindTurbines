@@ -59,13 +59,15 @@ function initMap() {
       $("#side-info").append("<p>" + this.type + "</p>");
       $("#side-info").append("<img src='" + this.icon.url + "'></img>");
 
-      $("#side-info").append("<p>Power output: " + this.power + "</p>");
-      console.log(i, i%2);
+      $("#side-info").append("<p>Power output: " + this.power + " kW</p>");
       if ( this.type == "hydro") {
 	$("#side-info").append("<img class='historical' src='chart.png'></img>");
       } else {
 	$("#side-info").append("<img class='historical' src='chart2.png'></img>");
       }
+
+      $("#side-info").append("<p>This power source could supply " + this.power + " households.</p>");
+
       
       document.getElementById('map').style.width = "80%";
     });
@@ -217,14 +219,14 @@ $(document).ready(function () {
   });
 
   $('#real-time').click(function() {
-    var current_width = document.getElementById('real-time-image').style.width = "450";
-    if (current_width > 200) {
-      document.getElementById('real-time-image').style.width = "200";
+    if ($('#real-time-img').hasClass('smaller')) {
+      $('#real-time-img')[0].style.width = "450px";
+      $('#real-time-img').removeClass('smaller');
     } else {
-      document.getElementById('real-time-image').style.width = "450";
+      $('#real-time-img')[0].style.width = "250px";
+      $('#real-time-img').addClass('smaller');
     }
   });
-  
 });
 
 //_ Emacs vars

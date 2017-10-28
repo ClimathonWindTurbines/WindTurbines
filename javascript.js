@@ -66,7 +66,7 @@ function initMap() {
 	$("#side-info").append("<img class='historical' src='chart2.png'></img>");
       }
 
-      $("#side-info").append("<p>This power source could supply " + this.power + " households.</p>");
+      $("#side-info").append("<p>This power source could supply " + this.power * 0.8 + " households.</p>");
 
       
       document.getElementById('map').style.width = "80%";

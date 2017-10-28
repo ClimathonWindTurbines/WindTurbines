@@ -32,7 +32,7 @@ html, body {
 #menu-items {
     position: absolute;
     top: 35px;
-    right: 100px;
+    right: 10px;
 }
 
 .menu-item {
@@ -148,6 +148,12 @@ a {
 #container img {
     display: block;
     margin: 0 auto;
+}
+
+#filters {
+    position: absolute;
+    left: 10px;
+    top: 150px;
 }
 
 .smaller {

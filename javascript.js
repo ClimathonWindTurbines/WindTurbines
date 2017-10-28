@@ -59,13 +59,15 @@ function initMap() {
       $("#side-info").append("<p>" + this.type + "</p>");
       $("#side-info").append("<img src='" + this.icon.url + "'></img>");
 
-      $("#side-info").append("<p>Power output: " + this.power + "</p>");
-      console.log(i, i%2);
+      $("#side-info").append("<p>Power output: " + this.power + " kW</p>");
       if ( this.type == "hydro") {
 	$("#side-info").append("<img class='historical' src='chart.png'></img>");
       } else {
 	$("#side-info").append("<img class='historical' src='chart2.png'></img>");
       }
+
+      $("#side-info").append("<p>This power source could supply " + this.power + " households.</p>");
+
       
       document.getElementById('map').style.width = "80%";
     });

@@ -46,6 +46,25 @@ html, body {
     top: 80px;
 }
 
+#close {
+    font-size: 2em;
+    position: absolute;
+    right: 15px;
+    top: 90px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.hidden {
+    visiblity: none;
+}
+    
+.resized {
+    width: 80%;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -57,6 +76,27 @@ a {
     top: 20px;
     height: 40px;
     width: 40px;
+}
+
+#side-info {
+    padding-left: 10px;
+    position: absolute;
+    width: 20%;
+    right: 0px;
+    top: 100px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+#historical {
+    width: 230px;
+    height: 120px;
+}
+
+#side-info p {
+    text-align: center;
 }
 
 #footer {

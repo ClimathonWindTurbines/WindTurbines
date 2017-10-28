@@ -1,6 +1,6 @@
 //_ Comments
 
-var markers = [];
+var wt = [];
 
 function loadScript(src) {
   var script = document.createElement("script");

@@ -1,6 +1,5 @@
 //_ Comments
 
-var map = null;
 var markers = [];
 
 function loadScript(src) {
@@ -13,30 +12,35 @@ function loadScript(src) {
 loadScript('https://maps.googleapis.com/maps/api/js?key=AIzaSyBg0y5B69OtpzAkFAvlR8emxwdhQWjdw40&callback=initMap');
 
 function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
+  var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 8,
     center: {lat: 47.2221, lng: 8.3156}
   });
 
   var icons = {
     "water": {
-      icon: 'hydro.png'
+      url: 'hydro.png',
+      scaledSize: new google.maps.Size(25, 25)
     },
     "nuclear": {
-      icon: 'nuclear.png'
+      url: 'nuclear.png',
+      scaledSize: new google.maps.Size(25, 25)
     },
     "wind": {
-      icon: 'wind.png'
+      url: 'wind.png',
+      scaledSize: new google.maps.Size(25, 25)
     },
     "solar": {
-      icon: 'solar.png'
+      url: 'solar.png',
+      scaledSize: new google.maps.Size(25, 25)
     }
   };
 
   alldata.forEach(function(e) {
+    console.log(icons[e["type"]]);
     markers.push(new google.maps.Marker({
       position: {lat: Number(e["latitude"]), lng: Number(e["longitude"])},
-      icon: icons[e["type"]].icon,
+      icon: icons[e["type"]],
       map: map
     }));
   });
@@ -164,9 +168,9 @@ var styledMapType = new google.maps.StyledMapType(
     }
   ],
   {name: 'Styled Map'});
-  //Associate the styled map with the MapTypeId and set it to display.
-  //map.mapTypes.set('styled_map', styledMapType);
-  //map.setMapTypeId('styled_map');
+
+  // map.mapTypes.set('styled_map', styledMapType);
+  // map.setMapTypeId('styled_map');
 }
 
 //_ Main

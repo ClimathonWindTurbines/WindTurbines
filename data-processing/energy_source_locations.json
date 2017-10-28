@@ -1,4 +1,4 @@
-[
+alldata = [
   {
     "latitude": 47.58242751767845, 
     "type": "wind", 
@@ -5242,4 +5242,4 @@
     "longitude": 8.182823992107238, 
     "power_output_kw": 380.0
   }
-]
+];

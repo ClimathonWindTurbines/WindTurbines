@@ -65,6 +65,7 @@ def process_energy_usage_data():
         # skip row
         reader.next()
 
+        min_norm_cons = 1e9
         max_norm_cons = 0
 
         for row in reader:
@@ -73,11 +74,13 @@ def process_energy_usage_data():
             for key, idx in canton_key_map.iteritems():
                 for canton in key.split(','):
                     norm_cons = float(row[idx]) / canton_key_pops[key]
+                    min_norm_cons = min(min_norm_cons, norm_cons)
                     max_norm_cons = max(max_norm_cons, norm_cons)
                     item[canton] = norm_cons
 
             data.append(item)
 
+        print 'Min norm consumption: %f' % min_norm_cons
         print 'Max norm consumption: %f' % max_norm_cons
 
     return data

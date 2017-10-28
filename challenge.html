@@ -5,6 +5,10 @@
     
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     <link rel="shortcut icon" href="favicon.png" type="image/png"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="canton_polygons.js"></script>    
+    <script src="challenge.js"></script>    
   </head>
   
   <body>
@@ -23,9 +27,17 @@
       <a href="profile.html"><img src="profile.png"></img></a>
     </div>
 
-    <footer>
-      <p>Climathon 2017, </p>
-    </footer>
-  </body>
-</html>
+    <div id="side-info">
+    </div>
+    <label id="close" class="hidden">&#735;</label>
+    
+    <div id="map"></div>
 
+    <div id="plus">
+      <img src="plus.png"></img><br/>
+    </div>
+
+    <div id="timer">2016-01-01 00:00</div>
+
+  </body>
+  </html>

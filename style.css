@@ -107,6 +107,19 @@ a {
     top: 90px;
 }
 
+#timer {
+  position: absolute;
+  right: 265px;
+  top: 150px;
+  height: 30px;
+  width: 250px;
+  background-color: #5596ec;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
 #real-time {
     position: absolute;
     bottom: 0px;

@@ -150,6 +150,12 @@ a {
     margin: 0 auto;
 }
 
+#filters {
+    position: absolute;
+    left: 10px;
+    top: 150px;
+}
+
 .smaller {
 }
 

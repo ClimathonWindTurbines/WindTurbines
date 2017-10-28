@@ -1,7 +1,5 @@
 //_ Comments
 
-var markers = [];
-
 function loadScript(src) {
   var script = document.createElement("script");
   script.type = "text/javascript";
@@ -36,6 +34,8 @@ function initMap() {
     }
   };
 
+  var markers = [];
+
   for (var i = 0; i < alldata.length; i++) {
     if ((Number(alldata[i]["power_output_kw"]) < 60) && (alldata[i]["type"] == "hydro")) {
       continue;
@@ -43,7 +43,10 @@ function initMap() {
     var marker = new google.maps.Marker({
       position: {lat: Number(alldata[i]["latitude"]), lng: Number(alldata[i]["longitude"])},
       icon: icons[alldata[i]["type"]],
-      map: map
+      type: alldata[i]["type"],
+      map: map,
+      name: alldata[i]["name"],
+      power: alldata[i]["power_output_kw"]
     });
     markers.push(marker);
   };
@@ -52,15 +55,19 @@ function initMap() {
     google.maps.event.addListener(markers[i], 'click', function(event) {
       $("#side-info").empty();
       $("#close").removeClass('hidden');
-      $("#side-info").append("<p class='bold'> " + alldata[i]["name"] + "</p>");
-      $("#side-info").append("<p>" + alldata[i]["type"] + "</p>");
-      $("#side-info").append("<img src=' " + alldata[i]["type"] + ".png'></img>");
+      $("#side-info").append("<p class='bold'> " + this.name + "</p>");
+      $("#side-info").append("<p>" + this.type + "</p>");
+      $("#side-info").append("<img src='" + this.icon.url + "'></img>");
 
-      $("#side-info").append("<p>Power output: " + alldata[i]["power_output_kw"] + "</p>");
-      $("#side-info").append("<img class='historical' src='historical.png'></img>");
-
+      $("#side-info").append("<p>Power output: " + this.power + "</p>");
+      console.log(i, i%2);
+      if ( this.type == "hydro") {
+	$("#side-info").append("<img class='historical' src='chart.png'></img>");
+      } else {
+	$("#side-info").append("<img class='historical' src='chart2.png'></img>");
+      }
+      
       document.getElementById('map').style.width = "80%";
-      console.log(alldata[i]);
     });
   };
 

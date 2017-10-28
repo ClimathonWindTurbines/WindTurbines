@@ -5241,5 +5241,102 @@ alldata = [
     "name": "Kernkraftwerk Leibstadt", 
     "longitude": 8.182823992107238, 
     "power_output_kw": 380.0
-  }
+  },
+  {
+
+  "latitude": 46.2369499,
+
+  "type": "solar",
+
+  "name": "Les Tournesols",
+
+  "longitude": 6.0767291,
+
+  "power_output_kw": 9.4
+
+},
+
+{
+
+  "latitude": 46.231746, "type": "solar",
+
+  "name": "SIG SOLAR 13",
+
+  "longitude": 6.082261
+,
+  "power_output_kw": 655.0
+
+},
+
+{
+
+  "latitude": 46.204925, "type": "solar",
+
+  "name": "Suntechnics",
+
+  "longitude": 6.181234
+,
+  "power_output_kw": 215.3
+
+},
+
+{
+
+  "latitude": 47.024310, "type": "solar",
+
+  "name": "Swin-Golf 3232 Tschugg",
+
+  "longitude": 7.076901
+,
+  "power_output_kw": 37.8
+
+},
+
+{
+
+  "latitude": 46.417415, "type": "solar",
+
+  "name": "Inselanlage Alpstadel in Feutersoey",
+
+  "longitude": 7.271156,
+  "power_output_kw": 1.5
+
+},
+
+
+{
+
+  "latitude": 47.317801, "type": "solar",
+
+  "name": "EKZ Bonstetten",
+
+  "longitude": 8.454511
+,
+  "power_output_kw": 6.1
+
+},
+
+
+{
+
+  "latitude": 47.281602, "type": "solar",
+
+  "name": "EKZ Ottenbach",
+
+  "longitude": 8.407610,
+  "power_output_kw": 5.0
+
+},
+
+
+{
+
+  "latitude": 47.640302, "type": "solar",
+
+  "name": "Mammern",
+
+  "longitude": 8.911844,
+  "power_output_kw": 24.9
+
+}
 ];

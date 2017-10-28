@@ -206,6 +206,16 @@ $(document).ready(function () {
     $("#close").addClass('hidden');
     document.getElementById('map').style.width = "100%";
   });
+
+  $('#plus').click(function() {
+    $('#form').removeClass('hidden');
+  });
+
+  $('#contact-submit').click(function() {
+    $('#form').addClass('hidden');
+  });
+
+  
 });
 
 //_ Emacs vars

@@ -108,13 +108,17 @@ a {
 }
 
 #real-time {
+    width: 200px;
     position: absolute;
     bottom: 0px;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding: 0px;
 }
 
 #real-time img {
     width: 200px;
+}
+
+.smaller {
 }
 
 #footer {
